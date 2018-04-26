@@ -76,6 +76,7 @@ namespace MVCECharts.Controllers
             return View();
         }
 
+
         public ActionResult VueView()
         {
             return View();
