@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using Domian;
+using Domin;
 using System.Linq;
-using System.Threading.Tasks;
-using System.Web;
-using 自定义权限控制.Models;
-using 自定义权限控制.Models.ViewModel;
 
 namespace 自定义权限控制.Manager
 {

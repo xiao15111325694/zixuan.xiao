@@ -1,24 +1,25 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using Domian;
+using Domin;
+using System;
 using System.Threading.Tasks;
-using System.Web;
 using System.Web.Mvc;
-using System.Web.Routing;
 using 自定义权限控制.Error;
 using 自定义权限控制.Manager;
-using 自定义权限控制.Models;
 
 namespace 自定义权限控制.Controllers
 {
-    [LogError]
+
+    //[LogError]
+    //[LogDebug]
     public class HomeController : Controller
     {
 
         public ActionResult Index(string token)
        {
-            ViewBag.token = token;
-            var ss = User.Identity.Name;
+            ModelDBContext db = new ModelDBContext();
+
+            var enti = db.Paragraph.Find(1);
+            var entity = db.User;
             var name = System.Web.HttpContext.Current.User.Identity.Name;
             ViewBag.Title = "Home Page";
             return View();

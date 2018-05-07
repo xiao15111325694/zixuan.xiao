@@ -1,12 +1,11 @@
-﻿using mshtml;
+﻿using Domian;
+using Domin;
 using System;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Security;
 using 自定义权限控制.Manager;
-using 自定义权限控制.Models;
-using 自定义权限控制.Models.ViewModel;
 using 自定义权限控制.Until.VerifyCode;
 
 namespace SingnalRAndIldentity.Controllers

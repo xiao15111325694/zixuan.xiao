@@ -1,14 +1,11 @@
-﻿using System;
+﻿using Domin;
+using System;
 using System.Collections;
-using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using System.Web.Http.Controllers;
 using System.Web.Mvc;
 using System.Web.Security;
 using System.Xml.Linq;
-using 自定义权限控制.Models.Enum;
-using AllowAnonymousAttribute = System.Web.Http.AllowAnonymousAttribute;
 
 namespace 自定义权限控制
 {

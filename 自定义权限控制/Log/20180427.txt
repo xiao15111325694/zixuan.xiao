@@ -1,0 +1,5 @@
+记录时间：2018-04-27 11:55:38,465;文件名：D:\Documents\Visual Studio 2015\Projects\MVCECharts\自定义权限控制\LogHelp.cs;行号:12;线程ID:[1];优先级:INFOriority;
+                             日志级别：INFO ;运行时间:87;出错类：log4net property:[(null)];错误描述：启动Web记录时间：2018-04-27 13:51:19,414;文件名：D:\Documents\Visual Studio 2015\Projects\MVCECharts\自定义权限控制\LogHelp.cs;行号:12;线程ID:[1];优先级:INFOriority;
+                             日志级别：INFO ;运行时间:79;出错类：log4net property:[(null)];错误描述：启动Web记录时间：2018-04-27 13:53:40,760;文件名：D:\Documents\Visual Studio 2015\Projects\MVCECharts\自定义权限控制\LogHelp.cs;行号:12;线程ID:[1];优先级:INFOriority;
+                             日志级别：INFO ;运行时间:69;出错类：log4net property:[(null)];错误描述：启动Web启动Web
+2018-04-27 14:10:49,298 [1] INFO  log4net [(null)] - 启动Web

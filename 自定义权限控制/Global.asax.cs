@@ -1,6 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using Domian;
+using System;
+using System.Data.Entity;
 using System.Security.Principal;
 using System.Web;
 using System.Web.Http;
@@ -17,9 +17,11 @@ namespace 自定义权限控制
         {
             AreaRegistration.RegisterAllAreas();
             GlobalConfiguration.Configure(WebApiConfig.Register);
-            FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
+            //FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+            Database.SetInitializer(new MigrateDatabaseToLatestVersion<ModelDBContext, Domin.Migrations.Configuration>());
+            LogHelp.Log("启动Web");
         }
 
         protected void Application_PostAuthorizeRequest()

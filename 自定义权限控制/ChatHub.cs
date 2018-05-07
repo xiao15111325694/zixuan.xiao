@@ -1,8 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using Microsoft.AspNet.SignalR;
-using 自定义权限控制.Models;
 using Microsoft.AspNet.SignalR.Hubs;
+using Domin;
+using Domian;
 
 namespace SingnalRAndIldentity
 {

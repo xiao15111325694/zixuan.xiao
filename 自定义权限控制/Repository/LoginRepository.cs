@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using 自定义权限控制.Models;
+﻿using Domian;
+using Domin;
 
 namespace 自定义权限控制.Repository
 {

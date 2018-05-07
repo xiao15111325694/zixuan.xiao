@@ -1,5 +1,6 @@
 ﻿using Microsoft.Owin;
 using Owin;
+using System.Data.Entity.Migrations;
 
 [assembly: OwinStartupAttribute(typeof(SingnalRAndIldentity.Startup))]
 namespace SingnalRAndIldentity
@@ -9,6 +10,7 @@ namespace SingnalRAndIldentity
         public void Configuration(IAppBuilder app)
         {
             app.MapSignalR();
+            
         }
 
     }
